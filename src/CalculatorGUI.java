@@ -1,4 +1,8 @@
+import static org.junit.Assert.fail;
+
 import javax.swing.*;
+
+import org.junit.Test;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -174,4 +178,9 @@ public class CalculatorGUI {
 			text_Area.setEditable(false);
 		}
 	}
+	
+	/*@Test
+	public void test() {
+		Calcul
+	}*/
 }
